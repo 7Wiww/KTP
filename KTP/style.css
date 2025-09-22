@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f0f0;
+  margin: 0;
+}
+
+.ktp {
+  background-color: rgb(109, 201, 255);
+  width: 850px;
+  height: 500px;
+  padding: 20px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  border-radius: 16px;
+  font-family: Arial, sans-serif;
+
+  background-image: url(backgorund.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nik {
+  padding-left: 6px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.nik td.titikdua {
+  padding-left: 90px;
+}
+
+.nik td.number {
+  padding-left: 20px;
+  letter-spacing: 5px;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+.nik span {
+  font-size: 22px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.identity table {
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.identity td {
+  padding: 3px 5px;
+  padding-left: 10px;
+  vertical-align: top;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.identity td.gol {
+  padding-left: 100px;
+}
+
+.jorokan {
+  text-indent: 40px;
+}
+
+.foto-area {
+  width: 220px;
+  text-align: center;
+}
+
+.foto-area img {
+  width: 150px;
+  height: 180px;
+  border: 1px solid #000;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.tanggal {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.ttd {
+  font-family: "Dancing Script", cursive;
+  font-size: 26px;
+  width: 150px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
